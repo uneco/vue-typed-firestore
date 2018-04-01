@@ -1,0 +1,20 @@
+{
+  "name": "vue-typed-firestore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "uneco <https://github.com/uneco>",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/app-types": "^0.1.2",
+    "@firebase/firestore-types": "^0.2.2",
+    "firebase": "^4.12.1",
+    "rxjs": "^5.5.8",
+    "vue": "^2.5.16"
+  }
+}
